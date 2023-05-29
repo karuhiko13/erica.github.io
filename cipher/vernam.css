@@ -1,0 +1,115 @@
+body {
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    background-image: url("cbg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#welcome {
+justify-content: center;
+align-items: center;
+display: grid;
+place-items: center;
+margin-top: 50px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+
+}
+
+
+#welcome p{
+
+font-family: 'Audiowide', cursive;
+font-size: 68px;
+text-align: center;
+overflow: hidden;
+white-space: nowrap;
+width: 0;
+animation: typing 1.5s steps(35, end) forwards;
+animation-delay: .5s;
+
+}
+
+
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+body h1{
+    font-size: 42px;
+    margin-top: 0px;
+    font-family: 'Audiowide', cursive;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: typing 1.5s steps(35, end) forwards;
+    animation-delay: 1s;
+
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+textarea{
+    width: 800px;
+    height: 200px;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: transparent;
+
+}
+
+#key-label {
+    text-align: center;
+}
+
+#key{
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: transparent;
+}
+
+
+#result {
+    margin-top: 10px;
+}
+
+#output {
+    width: 800px;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid white;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: transparent;
+}
+
